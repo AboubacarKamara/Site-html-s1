@@ -1,0 +1,136 @@
+body {
+ 
+background-image:linear-gradient(150deg, white,PaleTurquoise);
+}
+
+nav.menu-nav ul  li.btn{
+	display: inline-block;
+	list-style-type: none;
+	font-weight: 100;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+
+nav.menu-nav ul li.btn a{
+	color: #4682B4;
+	text-decoration: none;
+	padding: 10px;
+	width: 200px
+}
+
+
+nav.menu-nav ul li.btn:hover a{
+	color: C0C0C0;
+	background-color: #30B5A3;
+	transition: 0.3s all;
+}
+
+nav.menu-nav ul li.btn{
+	width: 350px
+	
+
+}
+
+
+
+.logo
+{
+float: left;
+position: absolute;
+top: 0px;
+width: 100px;
+padding: 5px;
+margin-left: 2.5%;
+}
+
+a{
+	text-decoration:none;	
+	color:white;
+}
+
+
+
+h1{
+	border : 1px solid grey;
+	text-align:center;
+	color : grey;
+	font-family: police4;
+
+}
+
+.ENFANTS{
+
+     background-image: url("http://femmesdebordees.fr/wp-content/uploads/shutterstock_1181486368-1024x683.jpg");
+     display: block;
+     margin-left: auto;
+     margin-right: auto
+ }
+
+
+
+
+.debut{
+	color: 00000;
+	text-align: center;
+	font-size: 19px;
+	
+}
+
+.texte1{
+	text-align: center;
+	color:3F9ACE;
+}
+
+.titre1{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+
+}
+
+#titre2{
+
+
+}
+
+.texte3{
+	text-align: center;
+}
+
+.desc1{
+	text-align: center;
+	font-size: 20px;
+	margin-top : 100px;
+}
+
+.patisserie{
+    color: 00000;
+	text-align: center;
+	font-size: 19px;
+}
+
+.imagesap{
+	text-align:center;
+	margin-bottom: : 50px;
+}
+
+#h3{
+	font-size: 20px;
+}
+
+.patisserie3{
+	vertical-align: baseline;
+	text-align: center;
+	color: grey;
+}
+
+ul li {
+    display: table; /* affichage en ligne */
+    text-align: center;
+}
+ul {
+    list-style: none; /* enlever les puces */
+    margin: 0; /* enlever les marges automatiques */
+    text-align: center;
+}
