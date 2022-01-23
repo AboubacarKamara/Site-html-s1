@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html itemscope="" itemtype="http://schema.org/WebPage" lang="fr" xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
 <head>	
-	<title>Traiteur 100% bio - Plateaux repas et événements pour les entreprises</title>
+	<title>Les petit plats dans les grands | Nos plats</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/plats.css">
+	<script src="http://sd-1.archive-host.com/membres/up/3347790973941088/snowstorm-min.js" type="text/javascript"></script>
 </head>
 <body>
     <header>
+
+
     <!-- Menu de Navigation -->
-	<nav class="menu-nav">
-		<p><a href="index.html"><img class="logo" src="img\logo.jpg"/></a></p>	
+	<nav class="menu-nav" id="haut">
+		<p><a href="index.html"><img class="logo" src="img\logo.jpg"/></a></p>
 		<ul>
 			<li class="btn">
 				<a href="index.html">
@@ -34,118 +37,126 @@
 		</ul>
 	</nav>
     </header>
+
+
 	<!--- Titre -->
 	<div class="Soutien">
-	<h1 style="color:#4682B4;"> Nos menus </h1>
+	    <h1 style="color:#30B5A3;"> Nos menus </h1>
 	</div>
 
 
     <!-- Menu Principal proposé -->
-
+		
                 <p class="Commande">
-                <strong> Voici le menu que nous proposons composé de 2 entrées, 2 plats et 2 desserts à seulement 15€
+                <img src="img/boum.jpg" alt="Couverts" width=75px height=75px class="image" /><strong>Nous vous proposons un menu composé au choix : 1  entrée, 1 plat et 1 dessert pour 15€
 		</strong><img src="img/boum.jpg" alt="Cuisine" width=75px height=75px /></p>
 		<p>
-		<ul class="Principal"><li><strong>Entree n°1</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Carbonnade</strong></li><li><img src="img/carbonnade.jpeg" alt="Entree" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Boeuf</li><li>-Carottes</li><li>-Oignons</li></ul>
 		</ul>
-		<ul class="Principal"><li><strong>Entree n°2</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Lotte</strong></li><li><img src="img/medaillons_de_lotte.jpg" alt="Entree" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Salade</li><li>-Foie Gras</li><li>-Bouillon</li></ul>
 		</ul>
-		<ul class="Principal"><li><strong>Plat n°1</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Panzella</strong></li><li><img src="img/panzella.jpg" alt="Plat" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Courgettes</li><li>-Tomate</li><li>-Poulet</li></ul>
 		</ul>
-		<ul class="Principal"><li><strong>Plat n°2</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Terine</strong></li><li><img src="img/entree1.jpg" alt="Plat" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Courgettes</li><li>-Tomate</li><li>-Poulet</li></ul>
 		</ul>
-		<ul class="Principal"><li><strong>Dessert n°1</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Mille feuille</strong></li><li><img src="img/mille_feuille.jpg" alt="Dessert" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Caramel</li><li>-Lait</li><li>-Oeuf</li></ul>
 		</ul>
-		<ul class="Principal"><li><strong>Dessert n°2</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Creme Oreo</strong></li><li><img src="img/creme_oreo.jpg" alt="Dessert" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Oreo</li><li>-Mascarpone</li><li>-Chocolat</li></ul>
 		</ul>
 		</p>
-		<input type="checkbox">
+		<label for="wow">
+		
 		<p class="Ajt-panier">Cliquez pour ajouter au panier
 		</p>
-
+		<input class="checkbox" type="checkbox" id="wow" value="wow">
+		</label>
 <!-- Menu Végétarien-->
-
+		
 		<p class="Commande">
-                <strong> Nous proposons aussi un menu végétarien au même prix
+                <img src="img/boum.jpg" alt="Couverts" width=75px height=75px class="image" /><strong> Nous proposons aussi un menu végétarien pour 15€
 		</strong><img src="img/boum.jpg" alt="Cuisine" width=75px height=75px /></p>
 		<div class="MenuVege">
-		<ul class="Principal"><li><strong>Entree</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Salade</strong></li><li><img src="img/tomate.jpg" alt="Premiere Entree" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Salade</li><li>-Tomate</li><li>-Fromage</li></ul>
 		</ul>
-		<ul class="Principal"><li><strong>Plat</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Ceviche</strong></li><li><img src="img/ceviche.jpg" alt="Premiere Entree" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Tomate</li><li>-Tofu</li><li>-Concombre</li></ul>
 		</ul>
-		<ul class="Principal"><li><strong>Dessert</strong></li><li><img src="img/entree1.jpg" alt="Premiere Entree" width=100px height=100px /></li><li>Composant 1</li><li>Composant 2</li><li>Composant 3</li></ul>
+		<ul class="Principal"><li><strong>Tiramisu</strong></li><li><img src="img/tiramisu.jpg" alt="Premiere Entree" width=100px height=100px /><input class="check" type="checkbox"></li><li>-Chocolat</li><li>-Mascarpone</li><li>-Cacao</li></ul>
 		</ul>
 		</div>
-		<input type="checkbox">
+		<label for="ok">
+		
 		<p class="Ajt-panier">Cliquez pour ajouter au panier
 		</p>
+		<input class="checkbox" type="checkbox" id="ok" value="ok">
+		</label>
+
 	
 
 
 
 <!-- Bloc avec les autres plats-->
 		<div class="BlocPlats">
-			<h1>Entrées en supplément (3€ à l'unité)</h1>
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>	
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>					
+			<h1 class="tp">Entrées en supplément (3€ à l'unité)</h1>
+			<label for="Entree1"><div class="Plats">
+				<img src="img/cheese.jpg" width=250px height=167px/>
+				<p class="nom_plats">Cheesecake au saumon fumé bio</p>
+				<input class="checkbox" type="checkbox" value="Entree1" id="Entree1">
+				<p><ul class="details"><li>-Saumon fumé Bonneterre</li><li>-Fromage frais</li><li>-Crème liquide</li><li>-Biscuits crakers bio</li></ul></p>
+			</div></label>
+			<label for="Entree2"><div class="Plats">
+				<img src="img/burrata.jpg" width=250px height=167px/>
+				<p class="nom_plats">Burrata et houmous</p>
+				<input class="checkbox" type="checkbox" value="Entree2" id="Entree2">
+				<p><ul class="details"><li>-Burrata</li><li>-Cumin</li><li>-Carotte</li></ul></p>
+			</div></label>	
+			<label for="Entree3"><div class="Plats">
+				<img src="img/souffle.jpg" width=250px height=167px/>
+				<p class="nom_plats">Souffle au fromage</p>
+				<input class="checkbox" type="checkbox" value="Entree3" id="Entree3">
+				<p><ul class="details"><li>-Oeuf</li><li>-Fromage</li><li>-Farine</li><li>-Beurre</li></ul></p>
+			</div></label>					
 		</div>
 		<div class="BlocPlats">
-		<h1> Plats principaux en supplément (7€ à l'unité)</h1>
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>	
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>	
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>	
+		<h1 class="tp"> Plats principaux en supplément (7€ à l'unité)</h1>
+			<label for="Plat1"><div class="Plats">
+				<img src="img/curry.jpg" width=250px height=167px/>
+				<p class="nom_plats">Curry de poulet</p>
+				<input class="checkbox" type="checkbox" value="Plat1" id="Plat1">
+				<p><ul class="details"><li>-Blanc de poulet</li><li>-Soupe de curry</li><li>-Fromage Blanc</li><li>-Huile d'olive</li></ul></p>
+			</div></label>	
+			<label for="Plat2"><div class="Plats">
+				<img src="img/gratin.jpg" width=250px height=167px/>
+				<p class="nom_plats">Gratin</p>
+				<input class="checkbox" type="checkbox" value="Plat2" id="Plat2">
+				<p><ul class="details"><li>-Riz</li><li>-Boeuf haché</li><li>-Courgettes</li><li>-Parmesan</li></ul></p>
+			</div></label>
+			<label for="Plat3"><div class="Plats">
+				<img src="img/riz_cantonais.jpg" width=250px height=167px/>
+				<p class="nom_plats">Riz cantonais</p>
+				<input class="checkbox" type="checkbox" value="Plat3" id="Plat3">
+				<p><ul class="details"><li>-Riz</li><li>-Jambon</li><li>-Petit pois</li><li>-Oignons</li></ul></p>
+			</div></label>	
 		</div>
 		<div class="BlocPlats">
-			<h1>Desserts en supplément (3€ à l'unité)</h1>
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>	
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>	
-			<div class="Plats">
-				<img src="img/bowl-mexicain.jpg" alt="Repas"/>
-				<p class="nom_plats">Bowl Mexicain</p>
-				<input type="checkbox">
-				<p><ul class="details"><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li><li>Ingredients</li></ul></p>
-			</div>		
+			<h1 class="tp">Desserts en supplément (3€ à l'unité)</h1>
+			<label for="Dessert1"><div class="Plats">
+				<img src="img/mousse.jpg" width=250px height=167px/>
+				<p class="nom_plats">Mousse aux fraises</p>
+				<input class="checkbox" type="checkbox" value="Dessert1" id="Dessert1">
+				<p><ul class="details"><li>-Fraises</li><li>-Sucre</li><li>-Crème entière</li><li>-Jus de citron</li></ul></p>
+			</div></label>	
+			<label for="Dessert2"><div class="Plats">
+				<img src="img/moelleux.jpg" width=250px height=167px/>
+				<p class="nom_plats">Moelleux aux framboises</p>
+				<input class="checkbox" type="checkbox" value="Dessert2" id="Dessert2">
+				<p><ul class="details"><li>-Framboises</li><li>-Fromage blanc</li><li>-Feuilles de gélatine</li><li>-Oeufs</li></ul></p>
+			</div></label>	
+			<label for="Dessert3"><div class="Plats">
+				<img src="img/domes.jpg" width=250px height=167px/>
+				<p class="nom_plats">Dômes chocolat noir et spéculoos</p>
+				<input class="checkbox" type="checkbox" value="Dessert3" id="Dessert3">
+				<p><ul class="details"><li>-Chocolat noir</li><li>-Crème liquide</li><li>-Spéculoos</li><li>-Beurre</li></ul></p>
+			</div></label>		
 		</div>
 
     <!-- Panier -->
@@ -154,6 +165,7 @@
 
      <!-- Pied de page -->
      <footer>
+     	<a href="#haut"><img class="fleche" src="img\flèche.png"/></a>
      	<p class="pied">
      		Copyright &copy; IUTPlat - 2020-2021 - All right reserved
      	</p>
